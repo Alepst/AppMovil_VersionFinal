@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <BundleResource Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Resources\estiramiento_espalda.png" />
+    <BundleResource Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Resources\dotnet_bot.png" />
+    <BundleResource Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Resources\calories_icon.png" />
+    <BundleResource Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Resources\historial.png" />
+    <BundleResource Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Resources\burpees.png" />
+    <BundleResource Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Resources\sentadillas.png" />
+    <BundleResource Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Resources\home.png" />
+    <BundleResource Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Resources\distance_icon.png" />
+    <BundleResource Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Resources\plancha.png" />
+    <BundleResource Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Resources\flexiones.png" />
+    <BundleResource Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Resources\rutinas.png" />
+    <BundleResource Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Resources\comidas.png" />
+    <BundleResource Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Resources\water_icon.png" />
+    <BundleResource Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Resources\perro_boca_abajo.png" />
+    <BundleResource Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Resources\time_icon.png" />
+    <BundleResource Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Resources\cronometro.png" />
+    <BundleResource Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Resources\imc.png" />
+    <BundleResource Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Resources\saltar_cuerda.png" />
+    <BundleResource Include="obj\Release\net9.0-maccatalyst\resizetizer\f\FluentUI.cs" />
+    <BundleResource Include="obj\Release\net9.0-maccatalyst\resizetizer\f\OpenSans-Regular.ttf" />
+    <BundleResource Include="obj\Release\net9.0-maccatalyst\resizetizer\f\OpenSans-Semibold.ttf" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="AppMovil_P1.Views.IMCPage"
+    Title="Calculadora IMC"
+    BackgroundColor="#6eab35">
+
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Label Text="Calculadora IMC" FontSize="24" TextColor="White" FontAttributes="Bold"/>
+        <Label Text="Peso (kg)" TextColor="White" FontAttributes="Bold" FontSize="22"/>
+        <Entry Text="{Binding Peso}" Keyboard="Numeric" Placeholder="Ej: 70" TextColor="White" FontSize="18"/>
+
+        <Label Text="Altura (cm)" TextColor="White" FontAttributes="Bold" FontSize="22"/>
+        <Entry Text="{Binding Altura}" Keyboard="Numeric" Placeholder="Ej: 170" TextColor="White" FontSize="18"/>
+
+        <Button Text="Calcular IMC" Command="{Binding CalcularIMCCommand}" BackgroundColor="Green" TextColor="White" FontAttributes="Bold" FontSize="22"/>
+
+        <Label Text="Tu IMC es:" FontAttributes="Bold" TextColor="White" FontSize="22"/>
+        <Label Text="{Binding ResultadoIMC}" FontSize="18" TextColor="White" />
+
+        <Label Text="Clasificación:" FontAttributes="Bold" TextColor="White" FontSize="22"/>
+        <Label Text="{Binding Clasificacion}" FontSize="18" TextColor="WhiteSmoke" />
+    </VerticalStackLayout>
+</ContentPage>

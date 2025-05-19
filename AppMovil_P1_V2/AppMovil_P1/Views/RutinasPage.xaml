@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMovil_P1.Views.RutinasPage"
+             xmlns:viewmodel="clr-namespace:AppMovil_P1.ViewModels"
+             Title="Rutinas de Ejercicio"
+             BackgroundColor="#6eab35">
+
+    <RefreshView IsRefreshing="{Binding IsRefreshing}"
+                 Command="{Binding LoadRutinasCommand}">
+
+        <CollectionView ItemsSource="{Binding Rutinas}"
+                        SelectionMode="Single"
+                        EmptyView="No hay rutinas disponibles">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="10" Margin="10,5" CornerRadius="15" BackgroundColor="White" BorderColor="White">
+                        <Grid ColumnDefinitions="Auto,*,Auto" RowDefinitions="Auto,Auto">
+                            <Image Grid.RowSpan="2"
+                                   Source="{Binding Imagen}"
+                                   WidthRequest="60"
+                                   HeightRequest="60"
+                                   Aspect="AspectFill"
+                                   Margin="0,0,10,0"/>
+
+                            <VerticalStackLayout Grid.Column="1">
+                                <Label Text="{Binding Nombre}" FontAttributes="Bold" FontSize="18" TextColor="Black"/>
+                                <Label Text="{Binding Descripcion}" FontSize="14" TextColor="Black"/>
+                                <Label Text="{Binding DuracionMinutos, StringFormat='Duración: {0} min'}" FontSize="12" TextColor="Black"/>
+                            </VerticalStackLayout>
+
+                            <Button Grid.Column="2" Grid.RowSpan="2"
+                                    Text="Iniciar"
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:RutinasViewModel}}, Path=IniciarRutinaCommand}"
+                                    CommandParameter="{Binding .}"
+                                    BackgroundColor="#6eab35"
+                                    TextColor="White"
+                                    WidthRequest="80"
+                                    HeightRequest="40"/>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </RefreshView>
+</ContentPage>

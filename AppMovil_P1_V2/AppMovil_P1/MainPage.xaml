@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AppMovil_P1"
+             x:Class="AppMovil_P1.MainPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#6eab35">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="25">
+
+            <!-- Título Principal -->
+            <Label Text="Inicio"
+                   FontSize="60"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" 
+                   TextColor="White"/>
+            <!-- Accesos rápidos -->
+            <Grid ColumnDefinitions="*,*" RowDefinitions="Auto,auto,Auto" ColumnSpacing="20" RowSpacing="35">
+
+                <!-- Calculadora IMC -->
+                <Button Text="IMC"
+                        FontSize="50"
+                        Grid.Row="0" Grid.Column="0"
+                        FontAttributes="Bold"
+                        Clicked="OnCalcularIMCClicked"
+                        ImageSource="imcremove.png"
+                        ContentLayout="Top,10"
+                        TextColor="Black"
+                        BackgroundColor="White"
+                        CornerRadius="20"/>
+
+                <!-- Ver Rutinas -->
+                <Button Text="Rutinas"
+                        FontSize="35"
+                        FontAttributes="Bold"
+                        Grid.Row="0" Grid.Column="1"
+                        Clicked="OnVerRutinasClicked"
+                        ImageSource="rutinas.png"
+                        ContentLayout="Top,10"
+                        BackgroundColor="White"
+                        TextColor="Black"
+                        CornerRadius="20"/>
+
+                <!-- Ver Comidas -->
+                <Button Text="Comidas"
+                        FontSize="36"
+                        FontAttributes="Bold"
+                        Grid.Row="1" Grid.Column="0"
+                        Clicked="OnVerComidasClicked"
+                        TextColor="Black"
+                        ImageSource="comidas.png"
+                        ContentLayout="Top,10"
+                        BackgroundColor="White"
+                        CornerRadius="20"/>
+
+                <!-- Ver Historial -->
+                <Button Text="Historial"
+                        FontSize="32"
+                        Grid.Row="2" Grid.Column="1"
+                        Clicked="OnVerHistorialClicked"
+                        FontAttributes="Bold"
+                        ImageSource="historial.png"
+                        ContentLayout="Top,10"
+                        BackgroundColor="White"
+                        TextColor="Black"
+                        CornerRadius="20"/>
+                
+                <!-- Ver Agua -->
+                <Button Text="Agua"
+                        FontSize="40"
+                        Grid.Row="1" Grid.Column="1"
+                        Clicked="OnVerAguaClicked"
+                        TextColor="Black"
+                        FontAttributes="Bold"
+                        ImageSource="water_icon.png"
+                        ContentLayout="Top,10"
+                        BackgroundColor="White"
+                        CornerRadius="20"/>
+
+                <!-- Ver Cronómetro -->
+                <Button Text="Cronómetro"
+                        FontSize="23"
+                        Grid.Row="2" Grid.ColumnSpan="1"
+                        Clicked="OnVerCronometroClicked"
+                        ImageSource="cronometro.png"
+                        TextColor="Black"
+                        FontAttributes="Bold"
+                        ContentLayout="Top,10"
+                        BackgroundColor="White"
+                        CornerRadius="20"/>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

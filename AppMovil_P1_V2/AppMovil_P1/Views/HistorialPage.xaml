@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMovil_P1.Views.HistorialPage"
+             xmlns:skia="clr-namespace:SkiaSharp.Views.Maui.Controls;assembly=SkiaSharp.Views.Maui.Controls"
+             BackgroundColor="#6eab35">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" HorizontalOptions="Center">
+
+            <Label Text="Historial de IMC" FontSize="30" HorizontalOptions="Center" TextColor="White" FontAttributes="Bold"/>
+
+            <!-- Lista del historial -->
+            <CollectionView x:Name="HistorialCollectionView" Margin="0,20,0,0">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <VerticalStackLayout Padding="5">
+                            <Label Text="{Binding Fecha}" FontAttributes="Bold" TextColor="White"/>
+                            <Label Text="{Binding Imc, StringFormat='IMC: {0:F2}'}" TextColor="White"/>
+                            <Label Text="{Binding Peso, StringFormat='Peso: {0} kg'}" TextColor="White"/>
+                            <Label Text="{Binding Altura, StringFormat='Altura: {0} cm'}" TextColor="White"/>
+                            <Label Text="{Binding Clasificacion, StringFormat='Clasificación: {0}'}" TextColor="White" />
+                        </VerticalStackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

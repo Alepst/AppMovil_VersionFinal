@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ImageAsset Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Assets.xcassets\iconob.appiconset\iconobItunesArtwork.png" />
+    <ImageAsset Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Assets.xcassets\iconob.appiconset\iconob83.5x83.5@2x.png" />
+    <ImageAsset Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Assets.xcassets\iconob.appiconset\iconob76x76@2x.png" />
+    <ImageAsset Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Assets.xcassets\iconob.appiconset\iconob60x60@3x.png" />
+    <ImageAsset Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Assets.xcassets\iconob.appiconset\iconob60x60@2x.png" />
+    <ImageAsset Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Assets.xcassets\iconob.appiconset\iconob40x40@3x.png" />
+    <ImageAsset Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Assets.xcassets\iconob.appiconset\iconob40x40@2x.png" />
+    <ImageAsset Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Assets.xcassets\iconob.appiconset\iconob29x29@3x.png" />
+    <ImageAsset Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Assets.xcassets\iconob.appiconset\iconob29x29@2x.png" />
+    <ImageAsset Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Assets.xcassets\iconob.appiconset\iconob20x20@3x.png" />
+    <ImageAsset Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Assets.xcassets\iconob.appiconset\iconob20x20@2x.png" />
+    <ImageAsset Include="C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\obj\Release\net9.0-maccatalyst\resizetizer\r\Assets.xcassets\iconob.appiconset\Contents.json" />
+  </ItemGroup>
+</Project>

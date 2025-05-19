@@ -1,0 +1,106 @@
+is_global = true
+build_property.MvvmToolkitEnableINotifyPropertyChangingSupport = true
+build_property._MvvmToolkitIsUsingWindowsRuntimePack = true
+build_property.CsWinRTComponent = 
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotWarningLevel = 
+build_property.CsWinRTAotWarningLevel = 
+build_property.TargetFramework = net9.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AppMovil_P1
+build_property.ProjectDir = C:\Users\Alejandro\source\repos\AppMovil_P1_V2\AppMovil_P1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTAotExportsEnabled = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
+build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
+build_property.CsWinRTMergeReferencedActivationFactories = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Alejandro/source/repos/AppMovil_P1_V2/AppMovil_P1/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMovil_P1.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Alejandro/source/repos/AppMovil_P1_V2/AppMovil_P1/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMovil_P1.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Alejandro/source/repos/AppMovil_P1_V2/AppMovil_P1/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMovil_P1.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Alejandro/source/repos/AppMovil_P1_V2/AppMovil_P1/Pages/ComidasPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMovil_P1.Pages.ComidasPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ComidasPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ComidasPage.xaml
+
+[C:/Users/Alejandro/source/repos/AppMovil_P1_V2/AppMovil_P1/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMovil_P1.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Alejandro/source/repos/AppMovil_P1_V2/AppMovil_P1/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMovil_P1.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Alejandro/source/repos/AppMovil_P1_V2/AppMovil_P1/Views/ActividadPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMovil_P1.Views.ActividadPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ActividadPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ActividadPage.xaml
+
+[C:/Users/Alejandro/source/repos/AppMovil_P1_V2/AppMovil_P1/Views/AguaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMovil_P1.Views.AguaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AguaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AguaPage.xaml
+
+[C:/Users/Alejandro/source/repos/AppMovil_P1_V2/AppMovil_P1/Views/CronometroPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMovil_P1.Views.CronometroPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CronometroPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CronometroPage.xaml
+
+[C:/Users/Alejandro/source/repos/AppMovil_P1_V2/AppMovil_P1/Views/DetalleRutinaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMovil_P1.Views.DetalleRutinaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DetalleRutinaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DetalleRutinaPage.xaml
+
+[C:/Users/Alejandro/source/repos/AppMovil_P1_V2/AppMovil_P1/Views/HistorialPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMovil_P1.Views.HistorialPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HistorialPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HistorialPage.xaml
+
+[C:/Users/Alejandro/source/repos/AppMovil_P1_V2/AppMovil_P1/Views/IMCPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMovil_P1.Views.IMCPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\IMCPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\IMCPage.xaml
+
+[C:/Users/Alejandro/source/repos/AppMovil_P1_V2/AppMovil_P1/Views/RutinasPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMovil_P1.Views.RutinasPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RutinasPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RutinasPage.xaml

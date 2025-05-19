@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:AppMovil_P1.ViewModels"
+             x:Class="AppMovil_P1.Views.CronometroPage"
+             BackgroundColor="#6eab35">
+
+    <ContentPage.BindingContext>
+        <viewmodels:CronometroViewModel />
+    </ContentPage.BindingContext>
+    
+
+    <VerticalStackLayout Padding="20" Spacing="15" HorizontalOptions="Center">
+
+        <Label Text="Cronometro" 
+               TextColor="White" 
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               FontSize="40"/>
+        <Label Text="{Binding TiempoTranscurrido}" 
+               FontSize="36"
+               HorizontalOptions="Center"
+               TextColor="White"/>
+
+        <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+            <Button Text="{Binding BotonInicioTexto}" 
+                    Command="{Binding ToggleCronometroCommand}"     
+                    BackgroundColor="#227720"
+                    TextColor="White" FontSize="20"/>
+            <Button Text="Reiniciar" 
+                    Command="{Binding ReiniciarCommand}" 
+                    IsEnabled="{Binding IsRunning}" 
+                    BackgroundColor="#227720"
+                    FontSize="20"
+                    TextColor="White"/>
+            <Button Text="Vuelta" 
+                    Command="{Binding RegistrarVueltaCommand}" 
+                    IsEnabled="{Binding IsRunning}" 
+                    BackgroundColor="#227720"
+                    FontSize="20"
+                    TextColor="White"/>
+        </HorizontalStackLayout>
+
+        <Label Text="Vueltas:" FontAttributes="Bold" TextColor="White" FontSize="22"/>
+
+        <CollectionView ItemsSource="{Binding Vueltas}" 
+                        HeightRequest="200">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Label Text="{Binding .}" FontSize="20" TextColor="White" FontAttributes="Bold" />
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </VerticalStackLayout>
+</ContentPage>

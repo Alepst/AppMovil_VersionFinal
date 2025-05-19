@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AppMovil_P1</name>
+    </assembly>
+    <members>
+        <member name="T:AppMovil_P1.ViewModels.ActividadViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:AppMovil_P1.ViewModels.ActividadViewModel.Ejercicios">
+            <inheritdoc cref="F:AppMovil_P1.ViewModels.ActividadViewModel._ejercicios"/>
+        </member>
+        <member name="F:AppMovil_P1.ViewModels.ActividadViewModel.cargarDatosCommand">
+            <summary>The backing field for <see cref="P:AppMovil_P1.ViewModels.ActividadViewModel.CargarDatosCommand"/>.</summary>
+        </member>
+        <member name="P:AppMovil_P1.ViewModels.ActividadViewModel.CargarDatosCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:AppMovil_P1.ViewModels.ActividadViewModel.CargarDatos"/>.</summary>
+        </member>
+        <member name="T:AppMovil_P1.ViewModels.CronometroViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:AppMovil_P1.ViewModels.CronometroViewModel.TiempoTranscurrido">
+            <inheritdoc cref="F:AppMovil_P1.ViewModels.CronometroViewModel._tiempoTranscurrido"/>
+        </member>
+        <member name="P:AppMovil_P1.ViewModels.CronometroViewModel.BotonInicioTexto">
+            <inheritdoc cref="F:AppMovil_P1.ViewModels.CronometroViewModel._botonInicioTexto"/>
+        </member>
+        <member name="P:AppMovil_P1.ViewModels.CronometroViewModel.IsRunning">
+            <inheritdoc cref="F:AppMovil_P1.ViewModels.CronometroViewModel._isRunning"/>
+        </member>
+        <member name="P:AppMovil_P1.ViewModels.CronometroViewModel.Vueltas">
+            <inheritdoc cref="F:AppMovil_P1.ViewModels.CronometroViewModel._vueltas"/>
+        </member>
+        <member name="F:AppMovil_P1.ViewModels.CronometroViewModel.toggleCronometroCommand">
+            <summary>The backing field for <see cref="P:AppMovil_P1.ViewModels.CronometroViewModel.ToggleCronometroCommand"/>.</summary>
+        </member>
+        <member name="P:AppMovil_P1.ViewModels.CronometroViewModel.ToggleCronometroCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:AppMovil_P1.ViewModels.CronometroViewModel.ToggleCronometro"/>.</summary>
+        </member>
+        <member name="F:AppMovil_P1.ViewModels.CronometroViewModel.reiniciarCommand">
+            <summary>The backing field for <see cref="P:AppMovil_P1.ViewModels.CronometroViewModel.ReiniciarCommand"/>.</summary>
+        </member>
+        <member name="P:AppMovil_P1.ViewModels.CronometroViewModel.ReiniciarCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:AppMovil_P1.ViewModels.CronometroViewModel.Reiniciar"/>.</summary>
+        </member>
+        <member name="F:AppMovil_P1.ViewModels.CronometroViewModel.registrarVueltaCommand">
+            <summary>The backing field for <see cref="P:AppMovil_P1.ViewModels.CronometroViewModel.RegistrarVueltaCommand"/>.</summary>
+        </member>
+        <member name="P:AppMovil_P1.ViewModels.CronometroViewModel.RegistrarVueltaCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:AppMovil_P1.ViewModels.CronometroViewModel.RegistrarVuelta"/>.</summary>
+        </member>
+        <member name="T:AppMovil_P1.ViewModels.HistorialViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:AppMovil_P1.ViewModels.HistorialViewModel.Registros">
+            <inheritdoc cref="F:AppMovil_P1.ViewModels.HistorialViewModel.registros"/>
+        </member>
+        <member name="T:AppMovil_P1.ViewModels.RutinasViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:AppMovil_P1.ViewModels.RutinasViewModel.Rutinas">
+            <inheritdoc cref="F:AppMovil_P1.ViewModels.RutinasViewModel.rutinas"/>
+        </member>
+        <member name="P:AppMovil_P1.ViewModels.RutinasViewModel.CurrentTime">
+            <inheritdoc cref="F:AppMovil_P1.ViewModels.RutinasViewModel._currentTime"/>
+        </member>
+        <member name="F:AppMovil_P1.ViewModels.RutinasViewModel.loadRutinasCommand">
+            <summary>The backing field for <see cref="P:AppMovil_P1.ViewModels.RutinasViewModel.LoadRutinasCommand"/>.</summary>
+        </member>
+        <member name="P:AppMovil_P1.ViewModels.RutinasViewModel.LoadRutinasCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:AppMovil_P1.ViewModels.RutinasViewModel.LoadRutinas"/>.</summary>
+        </member>
+        <member name="F:AppMovil_P1.ViewModels.RutinasViewModel.iniciarRutinaCommand">
+            <summary>The backing field for <see cref="P:AppMovil_P1.ViewModels.RutinasViewModel.IniciarRutinaCommand"/>.</summary>
+        </member>
+        <member name="P:AppMovil_P1.ViewModels.RutinasViewModel.IniciarRutinaCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:AppMovil_P1.ViewModels.RutinasViewModel.IniciarRutina(AppMovil_P1.Models.RutinaEjercicio)"/>.</summary>
+        </member>
+        <member name="T:AppMovil_P1.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Ejercicios">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Ejercicios" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TiempoTranscurrido">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TiempoTranscurrido" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.BotonInicioTexto">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "BotonInicioTexto" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsRunning">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsRunning" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Vueltas">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Vueltas" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Registros">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Registros" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Rutinas">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Rutinas" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CurrentTime">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CurrentTime" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Ejercicios">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Ejercicios" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TiempoTranscurrido">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TiempoTranscurrido" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.BotonInicioTexto">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "BotonInicioTexto" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsRunning">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsRunning" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Vueltas">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Vueltas" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Registros">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Registros" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Rutinas">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Rutinas" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CurrentTime">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CurrentTime" generated properties.</summary>
+        </member>
+    </members>
+</doc>
